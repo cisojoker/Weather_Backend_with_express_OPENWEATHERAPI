@@ -3,9 +3,9 @@ Taking request of http with the help of node.js to openweathermap api to showcas
 
 #The output for the following is as shown::
 # Opening page::
-![weatherfront](https://github.com/cisojoker/weather-backend-with-express-/assets/103921455/b32f74c8-1c92-4ddd-b53a-a8578d1b5a9c)
+![weatherfront](https://github.com/cisojoker/Weather_Backend_with_express_OPENWEATHERAPI/assets/103921455/cc52dd2b-ce51-4f6c-86c3-17bb6d789ed0)
 # Final Output::
-![weatheroutput](https://github.com/cisojoker/weather-backend-with-express-/assets/103921455/9b9e25a1-fa47-4d9f-a045-0e91fcd001f8)
+![weatheroutput](https://github.com/cisojoker/Weather_Backend_with_express_OPENWEATHERAPI/assets/103921455/8dce5112-e5e8-4a65-8db4-7294a2c1597a)
 # Summary::
 The project is a weather application that provides users with weather information for a specified city. It combines several technologies to achieve its functionality:
 
