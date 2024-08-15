@@ -24,6 +24,16 @@ app.post("/", function (req, res) {
     });
     response.on("end", function () {
       const wData = JSON.parse(data);
+      if (wData.cod === "404") {
+        fs.readFile("./error.html", "utf8", (err, html) => {
+          if (err) {
+            console.error(err);
+            return res.status(500).send("Server error");
+          }
+          return res.send(html);
+        });
+        return;
+      }
       const desc = wData.weather[0].description;
       const temp = wData.main.temp;
       const icon = wData.weather[0].icon;
